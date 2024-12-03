@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\billerserviceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|solutionrelative:billerserviceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6BFF11-239C-4B3C-BE09-BFFA8EA9EF77}|Infrastructure\\Infrastructure.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\infrastructure\\services\\rechargeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C6BFF11-239C-4B3C-BE09-BFFA8EA9EF77}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\rechargeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\core\\interfaces\\irechargeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|solutionrelative:core\\interfaces\\irechargeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\billerserviceapi\\controllers\\rechargecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|solutionrelative:billerserviceapi\\controllers\\rechargecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66397641-73E4-4167-A652-A75B2B008285}|Application\\Application.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\application\\services\\rechargemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66397641-73E4-4167-A652-A75B2B008285}|Application\\Application.csproj|solutionrelative:application\\services\\rechargemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\billerserviceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B41260A5-35E9-4FBB-9794-D041BC66A686}|BillerServiceApi\\BillerServiceApi.csproj|solutionrelative:billerserviceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\core\\entities\\parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|solutionrelative:core\\entities\\parameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\core\\configurations\\soapsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|solutionrelative:core\\configurations\\soapsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\core\\entities\\rechargerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|solutionrelative:core\\entities\\rechargerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|c:\\users\\chisale.s\\source\\repos\\biller\\core\\entities\\rechargeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6D7C39-FB62-460F-9450-DBF4102850A9}|Core\\Core.csproj|solutionrelative:core\\entities\\rechargeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RechargeController.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\Controllers\\RechargeController.cs",
+              "RelativeDocumentMoniker": "BillerServiceApi\\Controllers\\RechargeController.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\Controllers\\RechargeController.cs",
+              "RelativeToolTip": "BillerServiceApi\\Controllers\\RechargeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:27:45.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RechargeService.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Infrastructure\\Services\\RechargeService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\RechargeService.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Infrastructure\\Services\\RechargeService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\RechargeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:32:56.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRechargeService.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Interfaces\\IRechargeService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IRechargeService.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Interfaces\\IRechargeService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IRechargeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:43:40.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BillerServiceApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\appsettings.json",
+              "RelativeToolTip": "BillerServiceApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T13:14:19.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SoapSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Configurations\\SoapSettings.cs",
+              "RelativeDocumentMoniker": "Core\\Configurations\\SoapSettings.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Configurations\\SoapSettings.cs",
+              "RelativeToolTip": "Core\\Configurations\\SoapSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:53:42.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Parameter.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\Parameter.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Parameter.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\Parameter.cs",
+              "RelativeToolTip": "Core\\Entities\\Parameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:28:17.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\Program.cs",
+              "RelativeDocumentMoniker": "BillerServiceApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\BillerServiceApi\\Program.cs",
+              "RelativeToolTip": "BillerServiceApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:45:23.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RechargeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\RechargeRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\RechargeRequest.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\RechargeRequest.cs",
+              "RelativeToolTip": "Core\\Entities\\RechargeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:13:34.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RechargeResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\RechargeResponse.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\RechargeResponse.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Core\\Entities\\RechargeResponse.cs",
+              "RelativeToolTip": "Core\\Entities\\RechargeResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:10:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RechargeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Application\\Services\\RechargeManager.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\RechargeManager.cs",
+              "ToolTip": "C:\\Users\\Chisale.s\\source\\repos\\Biller\\Application\\Services\\RechargeManager.cs",
+              "RelativeToolTip": "Application\\Services\\RechargeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:25:46.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BillerServiceApi",
+    "\\Core",
+    "\\Core\\Configurations",
+    "\\Core\\Entities",
+    "\\Infrastructure",
+    "\\Infrastructure\\Services"
+  ],
+  "SelectedNode": "\\Biller.sln",
+  "PreviewInSolutionExplorer": false
+}
