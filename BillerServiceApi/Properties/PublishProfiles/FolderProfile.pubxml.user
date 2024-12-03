@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Chisale.s\source\repos\Biller_Deployment</_PublishTargetUrl>
+    <History>True|2024-11-25T14:51:25.2481894Z||;True|2024-11-25T14:07:15.6368403+02:00||;True|2024-11-25T09:13:34.5765653+02:00||;True|2024-11-22T20:03:42.1536706+02:00||;True|2024-11-22T19:59:11.0081300+02:00||;True|2024-11-22T09:17:39.2194547+02:00||;True|2024-11-21T16:28:32.4671147+02:00||;True|2024-11-21T15:34:16.1927231+02:00||;True|2024-11-21T14:27:34.5831052+02:00||;True|2024-11-21T11:52:00.7870335+02:00||;True|2024-11-21T11:10:56.8203907+02:00||;True|2024-11-21T09:43:18.8288835+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

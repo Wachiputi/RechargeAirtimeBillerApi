@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "API.Controllers.RechargeController",
+    "Method": "Recharge",
+    "RelativePath": "api/Recharge",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Core.Entities.RechargeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

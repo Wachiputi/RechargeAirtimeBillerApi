@@ -1,0 +1,45 @@
+2024-11-26 07:32:06.521 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-26 07:32:06.691 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 07:32:06.694 +02:00 [INF] Hosting environment: Development
+2024-11-26 07:32:06.695 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-26 07:32:51.160 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-26 07:32:58.442 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 7317.2937ms
+2024-11-26 07:32:58.711 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-26 07:32:58.795 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-26 07:32:58.802 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 7.5363ms
+2024-11-26 07:32:59.978 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1266.9154ms
+2024-11-26 07:33:00.091 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-26 07:33:00.600 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 508.2842ms
+2024-11-26 07:33:54.884 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Recharge - application/json 50
+2024-11-26 07:33:55.208 +02:00 [INF] Executing endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-26 07:33:55.585 +02:00 [INF] Route matched with {action = "Recharge", controller = "Recharge"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Recharge(RechargeRequest) on controller API.Controllers.RechargeController (BillerServiceApi).
+2024-11-26 07:33:56.105 +02:00 [INF] Start processing HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-26 07:33:56.119 +02:00 [INF] Sending HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-26 07:34:17.314 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-26 07:34:17.340 +02:00 [INF] Executed action API.Controllers.RechargeController.Recharge (BillerServiceApi) in 21747.5937ms
+2024-11-26 07:34:17.345 +02:00 [INF] Executed endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-26 07:34:17.347 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Recharge - 400 null application/json; charset=utf-8 22462.2151ms
+2024-11-26 07:42:34.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-26 07:42:34.752 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 138.0648ms
+2024-11-26 07:42:36.975 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-26 07:42:36.982 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.3333ms
+2024-11-26 07:50:23.658 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-26 07:50:23.818 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-26 07:50:23.829 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-26 07:50:23.830 +02:00 [INF] Hosting environment: Development
+2024-11-26 07:50:23.831 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-26 07:50:24.746 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 930.0164ms
+2024-11-26 07:50:24.890 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-26 07:50:24.890 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-26 07:50:24.899 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 9.1151ms
+2024-11-26 07:50:24.974 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.3507ms
+2024-11-26 07:50:25.435 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-26 07:50:25.463 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.2318ms
+2024-11-26 10:06:26.599 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-26 10:06:26.667 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 68.3594ms
+2024-11-26 10:06:26.681 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-26 10:06:26.683 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-26 10:06:26.688 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 5.6924ms
+2024-11-26 10:06:26.746 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.5504ms
+2024-11-26 10:06:26.929 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-26 10:06:26.940 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4749ms

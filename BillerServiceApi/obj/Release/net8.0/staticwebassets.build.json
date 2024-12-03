@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "trxmKGmfxICPtoabiMyb5F8lvezVqlKJRCPKUcW4sfc=",
+  "Source": "BillerServiceApi",
+  "BasePath": "_content/BillerServiceApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,185 @@
+2024-11-21 11:47:44.725 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 11:47:45.424 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 11:47:45.429 +02:00 [INF] Hosting environment: Development
+2024-11-21 11:47:45.430 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 11:47:49.431 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-21 11:47:51.903 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-21 11:47:51.919 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 2664.9362ms
+2024-11-21 11:47:52.101 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 198.7334ms
+2024-11-21 11:47:52.139 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-21 11:47:52.146 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 7.0475ms
+2024-11-21 11:47:52.696 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-21 11:47:52.920 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.4171ms
+2024-11-21 11:51:05.974 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Recharge - application/json 50
+2024-11-21 11:51:06.130 +02:00 [INF] Executing endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 11:51:06.488 +02:00 [INF] Route matched with {action = "Recharge", controller = "Recharge"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Recharge(Core.Entities.RechargeRequest) on controller API.Controllers.RechargeController (BillerServiceApi).
+2024-11-21 11:51:06.727 +02:00 [INF] Start processing HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 11:51:06.731 +02:00 [INF] Sending HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 11:51:27.899 +02:00 [INF] Executed action API.Controllers.RechargeController.Recharge (BillerServiceApi) in 21393.5502ms
+2024-11-21 11:51:27.904 +02:00 [INF] Executed endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 11:51:27.917 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (172.18.170.37:48090)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Infrastructure.Services.RechargeService.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Infrastructure\Services\RechargeService.cs:line 54
+   at Application.Services.RechargeManager.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Application\Services\RechargeManager.cs:line 26
+   at API.Controllers.RechargeController.Recharge(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\Controllers\RechargeController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-21 11:51:28.770 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Recharge - 500 null text/plain; charset=utf-8 22796.5433ms
+2024-11-21 13:38:07.908 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 13:38:08.227 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 13:38:08.228 +02:00 [INF] Hosting environment: Development
+2024-11-21 13:38:08.229 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 13:38:11.353 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-21 13:38:13.435 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 2088.7485ms
+2024-11-21 13:38:13.627 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-21 13:38:13.646 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 18.6101ms
+2024-11-21 13:38:13.794 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-21 13:38:13.827 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.8572ms
+2024-11-21 13:38:14.142 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-21 13:38:14.152 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6214ms
+2024-11-21 13:38:33.830 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Recharge - application/json 49
+2024-11-21 13:38:34.067 +02:00 [INF] Executing endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 13:38:34.172 +02:00 [INF] Route matched with {action = "Recharge", controller = "Recharge"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Recharge(Core.Entities.RechargeRequest) on controller API.Controllers.RechargeController (BillerServiceApi).
+2024-11-21 13:38:34.400 +02:00 [INF] Start processing HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 13:38:34.406 +02:00 [INF] Sending HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 13:38:55.543 +02:00 [INF] Executed action API.Controllers.RechargeController.Recharge (BillerServiceApi) in 21354.1347ms
+2024-11-21 13:38:55.548 +02:00 [INF] Executed endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 13:38:55.579 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (172.18.170.37:48090)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Infrastructure.Services.RechargeService.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Infrastructure\Services\RechargeService.cs:line 54
+   at Application.Services.RechargeManager.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Application\Services\RechargeManager.cs:line 26
+   at API.Controllers.RechargeController.Recharge(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\Controllers\RechargeController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-21 13:38:55.942 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Recharge - 500 null text/plain; charset=utf-8 22111.7147ms
+2024-11-21 14:26:14.322 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 14:26:14.482 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 14:26:14.484 +02:00 [INF] Hosting environment: Development
+2024-11-21 14:26:14.485 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 14:26:45.368 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 14:26:45.523 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 14:26:45.535 +02:00 [INF] Hosting environment: Development
+2024-11-21 14:26:45.551 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 14:30:08.540 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 14:30:08.699 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 14:30:08.701 +02:00 [INF] Hosting environment: Development
+2024-11-21 14:30:08.702 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 14:30:09.560 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2024-11-21 14:30:11.091 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_vs/browserLink - null null
+2024-11-21 14:30:11.091 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 1531.9435ms
+2024-11-21 14:30:11.105 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-21 14:30:11.112 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript; charset=utf-8 6.6019ms
+2024-11-21 14:30:11.275 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.6343ms
+2024-11-21 14:30:11.763 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2024-11-21 14:30:11.776 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.7792ms
+2024-11-21 14:30:39.382 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Recharge - application/json 52
+2024-11-21 14:30:39.406 +02:00 [INF] Executing endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 14:30:39.435 +02:00 [INF] Route matched with {action = "Recharge", controller = "Recharge"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Recharge(Core.Entities.RechargeRequest) on controller API.Controllers.RechargeController (BillerServiceApi).
+2024-11-21 14:30:39.506 +02:00 [INF] Start processing HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 14:30:39.510 +02:00 [INF] Sending HTTP request POST http://172.18.170.37:48090/ERechargeOoredoo/ERSTopup
+2024-11-21 14:31:00.573 +02:00 [INF] Executed action API.Controllers.RechargeController.Recharge (BillerServiceApi) in 21126.4915ms
+2024-11-21 14:31:00.578 +02:00 [INF] Executed endpoint 'API.Controllers.RechargeController.Recharge (BillerServiceApi)'
+2024-11-21 14:31:00.583 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (172.18.170.37:48090)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Infrastructure.Services.RechargeService.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Infrastructure\Services\RechargeService.cs:line 58
+   at Application.Services.RechargeManager.PerformRechargeAsync(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\Application\Services\RechargeManager.cs:line 26
+   at API.Controllers.RechargeController.Recharge(RechargeRequest request) in C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\Controllers\RechargeController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-21 14:31:00.818 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Recharge - 500 null text/plain; charset=utf-8 21435.5437ms
+2024-11-21 15:11:50.788 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 15:11:50.934 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 15:11:50.936 +02:00 [INF] Hosting environment: Development
+2024-11-21 15:11:50.937 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 15:32:55.483 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 15:32:55.627 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 15:32:55.629 +02:00 [INF] Hosting environment: Development
+2024-11-21 15:32:55.631 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi
+2024-11-21 15:33:44.547 +02:00 [INF] Now listening on: http://localhost:5122
+2024-11-21 15:33:44.711 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-21 15:33:44.713 +02:00 [INF] Hosting environment: Development
+2024-11-21 15:33:44.715 +02:00 [INF] Content root path: C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi

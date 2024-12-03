@@ -1,0 +1,6 @@
+@BillerServiceApi_HostAddress = http://localhost:5122
+
+GET {{BillerServiceApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
