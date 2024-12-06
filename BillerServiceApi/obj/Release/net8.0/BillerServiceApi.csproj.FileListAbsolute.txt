@@ -83,3 +83,4 @@ C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\bin\Release\net8.0\Micro
 C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\bin\Release\net8.0\Polly.dll
 C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\bin\Release\net8.0\Polly.Extensions.Http.dll
 C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\bin\Release\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Chisale.s\source\repos\Biller\BillerServiceApi\obj\Release\net8.0\BillerServiceApi.sourcelink.json

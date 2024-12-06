@@ -13,3 +13,4 @@ C:\Users\Chisale.s\source\repos\Biller\Infrastructure\obj\Release\net8.0\Infrast
 C:\Users\Chisale.s\source\repos\Biller\Infrastructure\obj\Release\net8.0\refint\Infrastructure.dll
 C:\Users\Chisale.s\source\repos\Biller\Infrastructure\obj\Release\net8.0\Infrastructure.pdb
 C:\Users\Chisale.s\source\repos\Biller\Infrastructure\obj\Release\net8.0\ref\Infrastructure.dll
+C:\Users\Chisale.s\source\repos\Biller\Infrastructure\obj\Release\net8.0\Infrastructure.sourcelink.json
